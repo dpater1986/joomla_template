@@ -7,7 +7,7 @@
 <authorUrl>dennis.fampater.nl</authorUrl>
 <copyright>Copyright© 2020-now</copyright>
 <license>GNU/GPL</license>
-<version>0.0.2</version>
+<version>0.0.3</version>
 <description>My Simple Joomla Template</description>
 <files>
 <filename>index.php</filename>
@@ -27,7 +27,7 @@
 <position>footer</position>
 </positions>
    <updateservers>
-    <server type="collection">https://github.com/dpater1986/msjt/edit/prior/.update/template.xml</server>
-    <server type="extension" priority="2" name="My Extension's Updates">http://example.com/extension.xml</server>
+	   <server type="collection">https://github.com/dpater1986/msjt/prior/.update/template.xml</server>
+	   <server type="extension" priority="2" name="My Simple Joomla Template update file">https://github.com/dpater1986/msjt/prior/.update/template_msjt.xml</server>
  </updateservers>
 </extension>
