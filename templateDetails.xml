@@ -26,4 +26,7 @@
 		<position>user4</position>
 		<position>footer</position>
 	</positions>
+	<updateservers>
+		<server type="extension" name="msjt" priority="1">https://github.com/dpater1986/msjt/edit/prior/.update/template.xml</server>
+	</updateservers>
 </extension>
