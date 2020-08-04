@@ -1,3 +1,3 @@
-<extensionset name="MSJT_CORE" discription="MSJT_CORE">
-	<extension name="MSJT" element"Joomla" type="file" version="0.0.3" detailsurl="https://raw.githubusercontent.com/dpater1986/msjt/prior/.update/template_msjt.xml"/>
+<extensionset name="MSJT" discription="My Simple Joomla Template">
+	<extension name="MSJT" element"msjt" type="template" version="0.0.3" detailsurl="https://raw.githubusercontent.com/dpater1986/msjt/prior/.update/template_msjt.xml"/>
 </extensionset>
