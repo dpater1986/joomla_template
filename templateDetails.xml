@@ -1,32 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
-<extension version "3.9" type="templale">
-	<name>msjt</name>
-	<creationDate>2020-08-04</creationDate>
-	<author>Dennis</author>
-	<authorEmail>d.pater1986@gmail.com</authorEmail>
-	<authorUrl>https://dennis.fampater.nl</authorURL>
-	<copyright>Dennis Pater 2020</copyright>
-	<license>GNU/GPL</license>
-	<version>0.0.001</version>
-	<description>My Simple Joomla Template</description>
-	<files>
-		<filename>index.php</filename>
-		<filename>templateDetails.xml</filename>
-		<folder>images</folder>
-		<folder>css</folder>
-	</files>
-	<positions>
-		<position>breadcrumb</position>
-		<position>left</position>
-		<position>right</position>
-		<position>top</position>
-		<position>user1</position>
-		<position>user2</position>
-		<position>user3</position>
-		<position>user4</position>
-		<position>footer</position>
-	</positions>
-	<updateservers>
-		<server type="extension" name="msjt" priority="1">https://github.com/dpater1986/msjt/edit/prior/.update/template.xml</server>
-	</updateservers>
+<extension version="3.5" type="template">
+<name>msjt</name>
+<creationDate>2020-08-04</creationDate>
+<author>DennisPater</author>
+<authorEmail>d.pater1986@gmail.com</authorEmail>
+<authorUrl>dennis.fampater.nl</authorUrl>
+<copyright>Copyright© 2020-now</copyright>
+<license>GNU/GPL</license>
+<version>1.0.2</version>
+<description>My Simple Joomla Template</description>
+<files>
+<filename>index.php</filename>
+<filename>templateDetails.xml</filename>
+<folder>images</folder>
+<folder>css</folder>
+</files>
+<positions>
+<position>breadcrumb</position>
+<position>left</position>
+<position>right</position>
+<position>top</position>
+<position>user1</position>
+<position>user2</position>
+<position>user3</position>
+<position>user4</position>
+<position>footer</position>
+</positions>
 </extension>
