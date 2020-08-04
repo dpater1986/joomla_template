@@ -5,4 +5,25 @@
 	<author>Dennis</author>
 	<authorEmail>d.pater1986@gmail.com</authorEmail>
 	<authorUrl>https://dennis.fampater.nl</authorURL>
-
+	<copyright>Dennis Pater 2020</copyright>
+	<license>GNU/GPL</license>
+	<version>0.0.001</version>
+	<description>My Simple Joomla Template</description>
+	<files>
+		<filename>index.php</filename>
+		<filename>templateDetails.xml</filename>
+		<folder>images</folder>
+		<folder>css</folder>
+	</files>
+	<positions>
+		<position>breadcrumb</position>
+		<position>left</position>
+		<position>right</position>
+		<position>top</position>
+		<position>user1</position>
+		<position>user2</position>
+		<position>user3</position>
+		<position>user4</position>
+		<position>footer</position>
+	</positions>
+</extension>
