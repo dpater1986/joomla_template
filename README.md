@@ -1,2 +1,1 @@
-# joomla_template
-Standaard Joomla template
+This is My Simple Joomla Template!
