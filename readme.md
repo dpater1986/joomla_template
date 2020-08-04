@@ -1,1 +1,1 @@
-This is My Simple Joomla Template
+This is My Simple Joomla Template!
