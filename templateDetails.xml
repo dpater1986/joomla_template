@@ -27,7 +27,7 @@
 <position>footer</position>
 </positions>
    <updateservers>
-	   <server type="collection">https://github.com/dpater1986/msjt/prior/.update/template.xml</server>
-	   <server type="extension" priority="2" name="My Simple Joomla Template update file">https://github.com/dpater1986/msjt/prior/.update/template_msjt.xml</server>
+	   <server type="collection">https://raw.githubusercontent.com/dpater1986/msjt/prior/.update/template.xml</server>
+	   <server type="extension" priority="2" name="My Simple Joomla Template update file">https://raw.githubusercontent.com/dpater1986/msjt/prior/.update/template_msjt.xml</server>
  </updateservers>
 </extension>
