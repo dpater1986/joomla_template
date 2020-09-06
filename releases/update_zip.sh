@@ -1,5 +1,7 @@
 #!/bin/bash
 
+git add .
+git commit -m 'Forgot to commit'
 # get version number
 version=($(grep -oP '(?<=version>)[^<]+' "templateDetails.xml"))
 echo What is the version number now: ${version[0]}
@@ -16,3 +18,8 @@ echo "</updates>" >> "releases/update.xml"
 
 zip "releases/msjt_v"$version2".zip" css/* images/* index.php templateDetails.xml
 cp "releases/msjt_v"$version2".zip" "releases/msjt_latest.zip"
+
+echo Time to update git!
+git add .
+git commit -m 'New version '$version2
+git push origin --all
