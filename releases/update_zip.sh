@@ -12,8 +12,8 @@ echo yes rest is false
 read at
 
 echo $version2
-lt=($(cat .lt))
-
+lt=($(cat releases/.lt))
+echo $version ' becomes ' $version2 ' does this become a new tag ' $at ' old tag is ' $lt
 # start to change version number
 sed -i 's/'$version'/'$version2'/' "templateDetails.xml"
 sed -i '$d' "releases/update.xml"
@@ -28,8 +28,8 @@ cp "releases/msjt_v"$version2".zip" "releases/msjt_latest.zip"
 if [ $at == "yes" ]
 then
 	git tag -a 'v'$version2 -m 'Add version '$version2''
-	rm .lt
-	touch $version2 .lt
+	rm releases/.lt
+	echo $version2 >> releases/.lt
 	sed -i 's/raw\/main/raw\/'$version2'/' "releases/update.xml"
 fi
 
