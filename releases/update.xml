@@ -71,7 +71,7 @@
 		<version>0.1.1</version>
 		<infourl title="My Simple Joomle Template V0.1.1"><![CDATA[ My template update ]]></infourl>
 		<downloads>
-			<downloadurl type="full" format="zip">https://github.com/dpater1986/msjt/raw/v0.1.1/releases/msjt_v0.1.0.zip</downloadurl>
+			<downloadurl type="full" format="zip">https://github.com/dpater1986/msjt/raw/v0.1.1/releases/msjt_v0.1.1.zip</downloadurl>
 		</downloads>
 		<maintainer>Dennis Pater</maintainer>
 		<maintainerurl>http://dennis.fampater.nl</maintainerurl>
