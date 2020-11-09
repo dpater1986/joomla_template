@@ -1,4 +1,5 @@
 #!/bin/bash
+cd ~/projects/msjt/
 
 git add .
 git commit -m 'Forgot to commit'
@@ -18,7 +19,6 @@ echo $version ' becomes ' $version2 ' does this become a new tag ' $at ' old tag
 sed -i 's/'$version'/'$version2'/' "templateDetails.xml"
 sed -i '$d' "releases/update.xml"
 sed -i 's/'$version'/'$version2'/' "releases/.newUpdate.xml"
-sed -i 's/raw\/'$version2'/raw\/main/' "releases/newUpdate.xml"
 cat "releases/.newUpdate.xml" >> "releases/update.xml"
 echo "</updates>" >> "releases/update.xml"
 
@@ -27,10 +27,14 @@ cp "releases/msjt_v"$version2".zip" "releases/msjt_latest.zip"
 
 if [ $at == "yes" ]
 then
+	git add .
+	git commit -m 'New version '$version2
 	git tag -a 'v'$version2 -m 'Add version '$version2''
 	rm releases/.lt
 	echo $version2 >> releases/.lt
 	sed -i 's/raw\/main/raw\/'$version2'/' "releases/update.xml"
+	rm releases/msjt_v*.zip
+	cp "releases/msjt_latest.zip" "releases/msjt_v"$version2".zip"
 fi
 
 
